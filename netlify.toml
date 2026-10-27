@@ -4,3 +4,14 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+# Rutas retiradas: evitan 404 en enlaces ya compartidos
+[[redirects]]
+  from = "/consultorios"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/trabajo"
+  to = "/"
+  status = 301
